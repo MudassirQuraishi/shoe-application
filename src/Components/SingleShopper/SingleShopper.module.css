@@ -1,0 +1,54 @@
+
+
+.singleshopper {
+   
+    
+    /* display: flex;
+    flex-direction: row; */
+    padding-left: 20px;
+    padding-right:10px;
+}
+
+/* .singleshopper .hr {
+   padding-bottom: 5px;
+} */
+
+.singleshopper h3 {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+
+.singleshopper .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    border-radius: 5px;
+}
+
+.singleshopper .buttons .button {
+    
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.singleshopper .button:hover {
+    background-color: rgb(226, 130, 116);
+    cursor: pointer;
+}
+
+/* .singleshopper label {
+    display: inline;
+} */
+
+.singleshopper h3,.singleshopper label {
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    border-radius: 5px;
+}
+
+.price {
+    margin-left: 45px;
+    font-weight: 500;
+}

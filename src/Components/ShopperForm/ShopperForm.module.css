@@ -1,0 +1,39 @@
+.form {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form input {
+    border-radius: 5px;
+    height: 1.5rem;
+    width: 10rem;
+    gap: 1rem;
+    text-align: center;
+}
+
+.form .quantity {
+    margin-left: 10px;
+}
+.para {
+    display: none;
+}
+.paras {
+    display: block;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.button {
+    border-radius: 10px;
+    height: fit-content;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    width: 7rem;
+}
+
+.button:hover {
+    background-color: brown;
+    cursor: pointer;
+}
